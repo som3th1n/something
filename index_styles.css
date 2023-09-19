@@ -1,0 +1,71 @@
+body {
+    padding: 95px;
+    background-size: auto;
+    background-image: url("../v1031-73.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(255,243,226,255);
+    margin: 0px 0px 0px 0px;
+}
+
+#wish{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+
+.giftbox{
+    text-align: center;
+    height: auto;
+}
+
+.giftbox img{
+    height: 96px;
+}
+
+.giftbox img:hover{
+    height: 108px;
+}
+
+
+.paper-box{
+    display: none;
+    border-radius: 10px;
+    justify-content: baseline;
+    padding: 5px 12px 12px 5px;
+    background-color: aliceblue;
+    z-index: 103;
+    margin: 0;
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
+
+.paper-box p{
+    display: none;
+    color:rgb(23, 22, 22);
+    z-index: 103;
+    font-size: 1.1rem;
+}
+
+.paper{
+    position: relative;
+    z-index: 101;
+    margin: 0 auto 0 auto;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.paper span{
+    color:rgb(23, 22, 22);
+    font-size: 5rem;
+}
+
+.paper span:hover{
+    color:#025b2c;
+}
+
