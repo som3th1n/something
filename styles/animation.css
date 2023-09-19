@@ -1,0 +1,111 @@
+.paper{
+  animation: paper-in 4s forwards;
+}
+
+.giftbox img{
+  animation: giftbox-in 2s forwards;
+}
+
+#wish{
+  animation: myAnim 2s ease 0s 1 normal forwards;;
+}
+
+@keyframes wish-in {
+  0%{
+    opacity: 0;
+    scale: 0;
+  }
+  10%{
+    transform: rotate(-0.5turn);
+  }
+  25%{
+    opacity: 1;
+  }
+  50%{
+    scale: 0.5;
+  }
+  100%{
+    scale: 1;
+  }
+}
+
+@keyframes paper-in {
+  0%{
+    opacity: 0;
+    scale: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  60%{
+    scale: 1;
+  }
+  100%{
+  }
+}
+
+@keyframes giftbox-in {
+  0%{
+    opacity: 0;
+    scale: 0;
+    transform: rotate(45deg);
+    height: 96px;
+  }
+  20%{
+    opacity: 1;
+  }
+  60%{
+    scale: 1;
+    transform: rotate(-45deg);
+  }
+  90%{
+    height: 108px;
+  }
+  100%{
+    transform: none;
+  }
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
